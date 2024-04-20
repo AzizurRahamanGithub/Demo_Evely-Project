@@ -1,0 +1,36 @@
+.scroll-hide::-webkit-scrollbar{
+   display: none;
+}
+.scroll-hide{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.stickys{
+    position: fixed;
+    width: 100%;
+    top:0;
+   z-index: 200;
+   background-color: white;
+}
+.shadows{
+   box-shadow: 2px 2px  10px rgb(228, 227, 227);
+}
+.shadow-1{
+   box-shadow: 2px 3px 15px rgb(232, 231, 231);
+   /* box-shadow: -1px -1px 5px rgb(232, 231, 231); */
+}
+
+/* @media screen and (min-width: 769px){
+   
+   #sidebar{
+     background-color:red;
+     width: 1px;
+
+   }
+} */
+
+/* orders section */
+.order_active{
+   background-color: rgb(72, 71, 71);
+}
